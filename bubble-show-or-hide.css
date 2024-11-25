@@ -3,14 +3,12 @@
 @description    显示或隐藏用户自定义的气泡
 @preprocessor   transitio
 @version        0.0.1
-@homepageURL    
+@homepageURL    https://github.com/Guest-Liang/Bubble-Show-or-Hide
 @author         GuestLiang
 @license     	gpl-3.0
 @var percent opacity "用户个性化的气泡透明度，0为完全隐藏，100为完全显示" 0
 ==/UserStyle== */
 
-div.message-content__wrapper > 
-div.msg-content-container.container--others.container--personalization.container--personalization-others.mix-message__container > 
 div.personalization-bubble {
     opacity: var(--opacity) !important;
 }
